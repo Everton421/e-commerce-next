@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 import { useState } from "react";
 
-const AddAddress = () => {
+export default function AddAddress ( ){
 
     const [address, setAddress] = useState({
         fullName: '',
@@ -91,4 +91,4 @@ const AddAddress = () => {
     );
 };
 
-export default AddAddress;
+ 

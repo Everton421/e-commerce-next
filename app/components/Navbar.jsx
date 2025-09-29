@@ -2,11 +2,10 @@
 import React from "react";
 import { assets, BagIcon, BoxIcon, CartIcon, HomeIcon} from "../assets/assets";
 import Link from "next/link"
-import { useAppContext } from "../context/AppContext";
 import Image from "next/image";
 import { useClerk, UserButton } from "@clerk/nextjs";
 
-export const Navbar = () => {
+export default function Navbar (){
 
   //const { isSeller, router, user } = useAppContext();
   
