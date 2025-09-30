@@ -1,5 +1,22 @@
 export const productsDummyData = [
   {
+    "_id": "5a1f4e43f34a77b6dde9141",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "Placa-mãe Msi ",
+    "description": "Placa-mãe Msi Mpg Z790 Carbon Wifi Ii Gaming Atx Lga 1700",
+    "price": 3729.99,
+    "offerPrice": 3325.99,
+    "image": [
+      "https://i.ibb.co/4ZKvrTC1/Screenshot-4.png",
+      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
+      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
+      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+    ],
+    "category": "Earphone ",
+    "date": 1738667236865,
+    "__v": 0
+  },
+  {
     "_id": "67a1f4e43f34a77b6dde9144",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Apple AirPods Pro 2nd gen",
