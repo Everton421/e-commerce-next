@@ -1,15 +1,20 @@
 'use client'
 import React from "react";
-import { assets } from "@/assets/assets";
-import OrderSummary from "@/components/OrderSummary";
+import { assets } from "../assets/assets";
+import OrderSummary   from "../components/OrderSummary";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import { useAppContext } from "@/context/AppContext";
+import   Navbar  from "../components/Navbar";
+ import { useAppContext } from "../context/AppContext";
+import { productsDummyData } from "../data/products";
+import { useRouter} from 'next/navigation'
 
 const Cart = () => {
+  
+  //const {    cartItems, addToCart, updateCartQuantity, getCartCount } = useAppContext();
 
-  const { products, router, cartItems, addToCart, updateCartQuantity, getCartCount } = useAppContext();
+const  router = useRouter();
 
+  const products = productsDummyData
   return (
     <>
       <Navbar />
@@ -19,7 +24,7 @@ const Cart = () => {
             <p className="text-2xl md:text-3xl text-gray-500">
               Your <span className="font-medium text-orange-600">Cart</span>
             </p>
-            <p className="text-lg md:text-xl text-gray-500/80">{getCartCount()} Items</p>
+            <p className="text-lg md:text-xl text-gray-500/80">{ /* getCartCount() */ } Items</p>
           </div>
           <div className="overflow-x-auto">
             <table className="min-w-full table-auto">
@@ -40,7 +45,8 @@ const Cart = () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.keys(cartItems).map((itemId) => {
+                { /*
+                 Object.keys(cartItems).map((itemId) => {
                   const product = products.find(product => product._id === itemId);
 
                   if (!product || cartItems[itemId] <= 0) return null;
@@ -98,7 +104,8 @@ const Cart = () => {
                       <td className="py-4 md:px-4 px-1 text-gray-600">${(product.offerPrice * cartItems[itemId]).toFixed(2)}</td>
                     </tr>
                   );
-                })}
+                })
+                */}
               </tbody>
             </table>
           </div>

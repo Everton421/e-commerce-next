@@ -2,7 +2,9 @@
 import { ProductCard } from "../components/ProductCard";
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { productsDummyData } from "../assets/assets";
+//import { productsDummyData } from "../assets/assets";
+
+import { productsDummyData } from '../data/products'
 
 export default function AllProducts (){
   //const { products, router } = useAppContext()

@@ -8,14 +8,13 @@ export const productsDummyData = [
     "offerPrice": 3325.99,
     "image": [
       "https://i.ibb.co/4ZKvrTC1/Screenshot-4.png",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+      
     ],
     "category": "Earphone ",
     "date": 1738667236865,
-    "__v": 0
+    "__v": 15000
   },
+  /*
   {
     "_id": "67a1f4e43f34a77b6dde9144",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
@@ -159,4 +158,5 @@ export const productsDummyData = [
     "date": 1738668619198,
     "__v": 0
   }
+    */
 ]
